@@ -1,0 +1,21 @@
+What structure you chose and why
+How the time limit shaped your decision
+What trade-offs or compromises you made under time pressure
+
+For my timed challenge, I choose the prompt to count the number of unique words in a text string.  
+For the challenge, I chose a Set as the data structure.  This structure eliminates duplicates automatically 
+and is very efficient for managing data when uniqueness is an important attribute.  I created a routine that 
+leverages the built in functions of the set structure to count the unique words.  I tested the code with the 
+sample given in the problem definition as well as a similar string, the empty string, and a string that only 
+includes repeated words.  The code handled all of the cases.
+
+The primary impact of the time limit for me was to choose a project where the desired behavior most closely 
+matched pre-defined behaviors.  I knew that this would let me minimize the amount of customization that I 
+had to do.  This would make the time necessary to build the code less but also reduces the time to test.  
+I think the decision will more often come down to choosing the design approach to solve a specific problem 
+but it is still interesting to think about choosing the problem to meet a time constraint.
+
+The biggest tradeoff I made due to time pressure was not exploring some of the more interesting problems.  
+For example, when working on the queue and stack assignments, I was thinking that it would be useful if 
+the pointers went both ways (with next and previous functionality).  I would have likeed to develop that 
+code with one of the other projects but I was less comfortable that I could get that done in the time frame.
